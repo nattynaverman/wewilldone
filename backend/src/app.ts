@@ -12,11 +12,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://wewilldone.railway.app'] 
-    : 'http://localhost:5173',
+  origin: 'http://localhost:5173',
   credentials: true
-}));
+}))
 app.use(helmet());
 app.use(morgan('combined'));
 app.use(express.json());
