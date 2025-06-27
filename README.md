@@ -1,3 +1,5 @@
+![Screenshot 2025-06-27 113639](https://github.com/user-attachments/assets/d66b347a-2747-43f6-a008-f2607a73f342)
+
 # WeWillDone - Todo App
 
 Todo application built with Vue.js and Node.js
@@ -53,7 +55,7 @@ pnpm run dev
 
 ### Backend (.env)
 ```
-DATABASE_URL="file:./dev.db"
+DATABASE_URL="file:./wewilldone.db"
 JWT_SECRET=your_jwt_secret_here
 SALT=10
 PORT=3000
