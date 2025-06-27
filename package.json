@@ -1,0 +1,17 @@
+{
+  "name": "wewilldone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && npx prisma generate && npm run build && cd ../frontend && npm install && npm run build",
+    "start": "cd backend && npm start"
+  },
+    "engines": {
+    "node": "18.x"
+  },
+  "keywords": [],
+  "author": "Natty",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1"
+}
