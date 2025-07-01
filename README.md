@@ -1,8 +1,8 @@
-![Screenshot 2025-06-27 113639](https://github.com/user-attachments/assets/d66b347a-2747-43f6-a008-f2607a73f342)
-
 # WeWillDone - Todo App
 
 Todo application built with Vue.js and Node.js
+
+![Screenshot 2025-06-27 113639](https://github.com/user-attachments/assets/d66b347a-2747-43f6-a008-f2607a73f342)
 
 ## 🚀 Features
 
